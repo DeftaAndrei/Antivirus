@@ -64,5 +64,58 @@ Rezultatele sunt salvate și în fișierul `rezultate_scanare_email.json` pentru
 - Analizele sunt simple și pot avea atât rezultate fals pozitive cât și fals negative
 - Acest instrument este menit să completeze, nu să înlocuiască, soluțiile de securitate existente
 
-  Scanare.java
+  Scanare.java && # Scanner de Malware && Scan.java
+
+## Descriere
+Această aplicație Java oferă o soluție simplă dar eficientă pentru scanarea sistemului în căutarea potențialelor fișiere malware. Programul utilizează o bază de semnături predefinite și verifică extensiile fișierelor pentru a identifica potențiale amenințări.
+
+## Funcționalități
+- Scanare recursivă a directoarelor
+- Detectare fișiere suspecte bazată pe semnături
+- Verificare extensii periculoase
+- Raportare în timp real a progresului scanării
+- Sumar final cu statistici
+
+## Semnături Detectate
+Programul poate detecta următoarele tipuri de fișiere potențial periculoase:
+- Executabile PE (Windows)
+- Executabile ELF (Linux)
+- Arhive ZIP suspecte
+- Fișiere Java Class
+- Scripturi (Bash, PHP)
+- Documente Office cu macro-uri
+- Fișiere PDF cu JavaScript
+- Și multe altele
+
+## Cum să Utilizați
+1. Compilați fișierul `scan.java`
+2. Rulați programul
+3. Introduceți calea completă a directorului pe care doriți să-l scanați
+4. Așteptați finalizarea scanării
+5. Verificați rezultatele afișate
+
+## Limitări
+- Scanează doar fișiere mai mici de 10MB
+- Verifică doar primii 4 bytes ai fișierelor pentru semnături
+- Nu oferă opțiuni de carantină sau remediere
+
+## Cerințe Sistem
+- Java Runtime Environment (JRE)
+- Drepturi de acces pentru citirea directoarelor țintă
+
+## Note de Securitate
+- Programul este destinat doar pentru scopuri educaționale
+- Nu este un înlocuitor pentru soluțiile antivirus profesionale
+- Poate genera false pozitive
+
+## Extensii Monitorizate
+Următoarele extensii sunt considerate potențial periculoase:
+- .exe
+- .dll
+- .bat
+- .cmd
+- .scr
+- .vbs
+- .js
+- .jar 
 
