@@ -64,6 +64,12 @@ Rezultatele sunt salvate și în fișierul `rezultate_scanare_email.json` pentru
 - Analizele sunt simple și pot avea atât rezultate fals pozitive cât și fals negative
 - Acest instrument este menit să completeze, nu să înlocuiască, soluțiile de securitate existente
 
+
+
+
+
+
+
   Scanare.java && # Scanner de Malware && Scan.java
 
 ## Descriere
