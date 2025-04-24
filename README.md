@@ -1,4 +1,4 @@
-# Scanner Emailuri Suspecte
+# Scanner Emailuri Suspecte  - ScanEmail.py
 
 Acest program analizează emailurile din contul tău Gmail pentru a detecta potențiale amenințări de securitate, inclusiv phishing, malware și alte tipuri de atacuri transmise prin email.
 
@@ -61,5 +61,8 @@ Rezultatele sunt salvate și în fișierul `rezultate_scanare_email.json` pentru
 
 - Scriptul rulează local și nu trimite datele tale nicăieri
 - Accesul OAuth este doar pentru citirea emailurilor, nu și pentru modificarea lor
-- Analizele sunt euristice și pot avea atât rezultate fals pozitive cât și fals negative
-- Acest instrument este menit să completeze, nu să înlocuiască, soluțiile de securitate existente 
+- Analizele sunt simple și pot avea atât rezultate fals pozitive cât și fals negative
+- Acest instrument este menit să completeze, nu să înlocuiască, soluțiile de securitate existente
+
+  Scanare.java
+
